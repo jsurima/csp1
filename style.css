@@ -15,13 +15,14 @@ body {
  }
 
 #myPicture {
-	width: 20%;
-	height: 20%;
+	width: 180px;
+	height: 180px;
 }
 
 #myName {
 	padding-top: 50px;
 	font-weight: bold;
+	font-size: 40px;
 }
 
 #myTitle {
@@ -63,7 +64,7 @@ body {
 
 #aboutMe p {
 	padding-top: 30px;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: justify;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -133,7 +134,8 @@ body {
 
 .myContactform form {
 	font-weight: bold;
-	padding-left: 50px;
+/*	padding-left: 50px;*/
+	align-items: center;
 }
 
 .myContactform .btn {
@@ -164,7 +166,31 @@ body {
 	text-align: left;
 }
 
-#cp2Style {
-	background-image: url('images/wip.jpg');
-	height: 100vh;
+.wipText p {
+	text-align: left;
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	width: 450px;
+	transform: translateY(-50%);
+	color: darkgreen;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.wipText a {
+	color: darkgreen;
+	font-weight: bold;
+}
+
+#brokenRobot {
+	width: 60%;
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+}
+
+
+#myCoffee {
+	width: 60%;
 }
