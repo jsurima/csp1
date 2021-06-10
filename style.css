@@ -1,0 +1,119 @@
+/*CSS Reset*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: FreeMono, monospace;
+	color: #0a1d37;
+
+ }
+
+body {
+ 	background-color: #ffeedb;
+ }
+
+#myPicture {
+	width: 20%;
+	height: 20%;
+}
+
+div > #myName {
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+div	> #myTitle {
+	font-size: 25px;
+}
+
+div > .jumbotron {
+	margin-top: 80px;
+	border-radius: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #ffbd9b;
+}
+
+#navBar {
+	background-color: #ffd8cc;
+	opacity: 0.9;
+	font-size: 20px;
+}
+
+.navbar-brand {
+	font-size: 23px;
+	font-weight: bold;
+	padding-right: 15px;
+	border-right: 3px solid #ffeedb;
+}
+
+.nav-link {
+	padding-right: 15px;
+	border-right: 3px solid #ffeedb;
+}
+
+#aboutMe > h3 {
+	padding-top: 100px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#aboutMe > p {
+	font-size: 25px;
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#aboutMe .para1 {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+#aboutMe .para1::after{
+	content: '';
+	height: 2px;
+	width: 20%;
+	background-color: #0a1d37;
+	position: absolute;
+	left: calc(50% - 10%);
+	bottom: 0;
+}
+
+#project {
+	padding-top: 100px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #0a1d37;
+}
+
+.card-group {
+	align-items: center;
+	font-size: 100%;
+
+}
+
+.card-group .card {
+	background-color: #ffbd9b;
+	margin: 40px;
+	padding: 20px;
+	height: 550px;
+}
+
+.card-group .btn {
+	color: white;
+	background-color: #0a1d37;
+}
+
+.card-group .projButtons  {
+	display:inline-block;
+	vertical-align:bottom;
+}
+
+
+#contact {
+	font-size: 40px;
+	font-weight: bold;
+}

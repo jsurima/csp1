@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div class="d-flex container-fluid">
+	   <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	   <!--This is my Bootstrap CSS -->
+	   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	   <!-- This is my CSS custom style -->
+	   <link rel="stylesheet" type="text/css" href="./style.css">
+
+	<title>JohnLester Boyo Portfolio</title>
+</head>
+<body>
+
+	<div>
+		<nav  id="navBar" class="navbar navbar-expand-lg navbar-light fixed-top">
+	  		<a class="navbar-brand" href="#">John Lester</a>
+	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+
+	  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#project">Projects</a>
+			      </li>         
+			      <li class="nav-item">
+			        <a class="nav-link" href="#contact">Contacts</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#targetAboutme">About me</a>
+			      </li> 
+			    </ul>
+		  	</div>
+		</nav>
+	</div>
+
+
+	<div class="text-center">
+
+		<!-- This is my Jumbotron -->
+		<div class="jumbotron jumbotron-fluid">
+			<img id="myPicture" src="./images/jlboyo-picture.jpg" alt="My-Profile-Picture" class="rounded-circle">
+		 	<div>
+		    	<h1 id="myName" class="display-4">John Lester Boyo</h1>
+		    	<p id="myTitle" class="lead">Full-Stack Web Developer</p>
+		 	</div>
+		</div>
+
+		<!-- About me -->
+		<div id="aboutMe">
+			<h3 id="targetAboutme">About me</h3>
+			<p class="para1">Hello! I am a full-stack web developer in Philippines. I'm working remotely on projects for clients not only in local but also around the world. I have extensive programming experience and I'm comfortable developing on the frontend or backend.</p>
+
+			<p>I have a vast knowledge ranging from HTML-CSS-JAVASCRIPT to MongoDB-Express.Js-React.Js-Node.Js. I also use different type of programming languages and tools such as:</p>
+		</div>
+
+		<!-- Projects -->
+		<h3 id="project">Projects</h3>
+
+		<div class="card-group">
+
+			<div class="card" id="cardcap1">
+			  <img src="./images/cp1-portfolio.jpg" class="card-img-top" alt="portfolio image">
+			  <div class="card-body">
+			    <h5 class="card-title">JOHN LESTER BOYO PORTFOLIO</h5>
+			    <p class="card-text">This is my 1st capstone in Zuitt Coding Bootcamp using HTML, CSS, and Bootstrap</p>
+			    <div class="projButtons">
+			    <a href="#" class="btn">View Project</a>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="card" id="cardcap2">
+			  <img src="./images/cp2-backend.jpg" class="card-img-top" alt="backend image">
+			  <div class="card-body">
+			    <h5 class="card-title">BACK END E-COMMERCE PROJECT</h5>
+			    <p class="card-text">Work in progress, Thank you for patiently waiting.</p>
+			    <div class="projButtons">
+			    	<a href="./projects/capstone2.html" class="btn" target="_blank">View Project</a>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="card" id="cardcap3">
+			  <img src="./images/cp3-frontend.jpg" class="card-img-top" alt="front end image">
+			  <div class="card-body">
+			    <h5 class="card-title">FRONT END E-COMMERCE PROJECT</h5>
+			    <p class="card-text">Work in progress,Thank you for patiently waiting.</p>
+			    <div class="projButtons">
+			    	<a href="./projects/capstone3.html" class="btn" target="_blank">View Project</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+		<!-- Contacts -->
+		<h3 id="contact" class="container">Contact</h3>
+		<div class="container myContactform">
+			<div class="row">
+			    <div class="col-sm">
+			    	<form>
+			    	<div class="form-group">
+			    		<label for="fullName">Full Name</label>
+			    		<input type="text" class="form-control" id="fullName" required>
+			    		</div>
+			    	<div class="form-group">
+			    	    <label for="emailAddress">Email Address</label>
+			    	    <input type="email" class="form-control" id="emailAddress" required>
+			    	</div>
+			    	<div class="form-group">
+			    	    <label for="textArea">Message</label>
+			    	    <textarea class="form-control" id="textArea" rows="3"></textarea>
+			    	</div>
+			    	<div>
+			    		<button type="button" class="btn btn-success btn-block mb-4">Send</button>
+			    	</div>
+			    	</form>
+			    </div>
+			    <div class="col-sm">
+			    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d341.11131902370386!2d121.10795073758133!3d14.699353235743935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQxJzU3LjgiTiAxMjHCsDA2JzI5LjAiRQ!5e0!3m2!1sen!2sph!4v1623306383522!5m2!1sen!2sph" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
