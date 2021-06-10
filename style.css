@@ -6,6 +6,7 @@
 	padding: 0;
 	font-family: FreeMono, monospace;
 	color: #0a1d37;
+	text-align: center;
 
  }
 
@@ -18,16 +19,16 @@ body {
 	height: 20%;
 }
 
-div > #myName {
+#myName {
 	padding-top: 50px;
 	font-weight: bold;
 }
 
-div	> #myTitle {
+#myTitle {
 	font-size: 25px;
 }
 
-div > .jumbotron {
+.jumbotron {
 	margin-top: 80px;
 	border-radius: 30px;
 	margin-left: 10%;
@@ -37,29 +38,31 @@ div > .jumbotron {
 
 #navBar {
 	background-color: #ffd8cc;
+	color: #0a1d37;
 	opacity: 0.9;
 	font-size: 20px;
 }
 
 .navbar-brand {
-	font-size: 23px;
+	font-size: 25px;
 	font-weight: bold;
 	padding-right: 15px;
-	border-right: 3px solid #ffeedb;
+	border-right: 3.5px solid #ffeedb;
 }
 
 .nav-link {
 	padding-right: 15px;
-	border-right: 3px solid #ffeedb;
+	border-right: 2px solid #ffeedb;
 }
 
-#aboutMe > h3 {
+#aboutMe h3 {
 	padding-top: 100px;
 	font-size: 40px;
 	font-weight: bold;
 }
 
-#aboutMe > p {
+#aboutMe p {
+	padding-top: 30px;
 	font-size: 25px;
 	text-align: justify;
 	margin-left: 10%;
@@ -95,6 +98,10 @@ div > .jumbotron {
 
 }
 
+.card-group h5 {
+	font-weight: bold;
+}
+
 .card-group .card {
 	background-color: #ffbd9b;
 	margin: 40px;
@@ -116,4 +123,48 @@ div > .jumbotron {
 #contact {
 	font-size: 40px;
 	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.myAddressmap {
+	border: 0;
+	width: 200%;
+}
+
+.myContactform form {
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.myContactform .btn {
+	background-color: #ffbd9b;
+	font-weight: bold;
+}
+
+
+.forMy-footer {
+	background-color: #0a1d37;
+	padding: 10px;
+}
+
+.forMy-footer p {
+	color: white;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	text-decoration: none;
+}
+
+.forMy-footer h3 {
+	color: white;
+	font-size: 14px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+#cp2Style {
+	background-image: url('images/wip.jpg');
+	height: 100vh;
 }
