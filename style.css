@@ -15,26 +15,49 @@ body {
  }
 
 #myPicture {
-	width: 180px;
-	height: 180px;
+	width: 13%;
+	height: 13%;
 }
 
 #myName {
-	padding-top: 50px;
-	font-weight: bold;
-	font-size: 40px;
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: left;
 }
 
 #myTitle {
-	font-size: 25px;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 50px;
+	font-family: Impact;
 }
 
 .jumbotron {
 	margin-top: 80px;
+	margin-bottom: 0px;
 	border-radius: 30px;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	background-color: #ffbd9b;
+}
+
+.jumboButton {
+	background-color: #0a1d37;
+	color: white;
+	margin: 20px;
+	border-style: ridge;
+
+}
+
+.jumboButton:hover {
+	background: #ffd8cc;
+
+}
+
+.myAvatar {
+	width: 70%;
+	border-radius: 50px;
+	border-style: groove;
 }
 
 #navBar {
@@ -42,6 +65,13 @@ body {
 	color: #0a1d37;
 	opacity: 0.9;
 	font-size: 20px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.navbar-nav li > a:hover {
+	background-color: #ffbd9b;
+	color: #FFC0CB;
 }
 
 .navbar-brand {
@@ -125,6 +155,7 @@ body {
 	font-size: 40px;
 	font-weight: bold;
 	margin-bottom: 50px;
+	padding-top: 50px;
 }
 
 .myAddressmap {
@@ -143,6 +174,26 @@ body {
 	font-weight: bold;
 }
 
+.myContactform textarea:focus {
+	border-color: grey;
+	box-shadow: none;
+	border-bottom: 5px solid #fa7b39;
+}
+
+.myContactform input:focus {
+	border-color: grey;
+	box-shadow: none;
+	border-bottom: 5px solid #fa7b39;
+}
+
+.myContactform button:focus {
+	border-color: none;
+	box-shadow: none;
+}
+
+.myContactform button:active {
+	background-color: #c45f2b;
+}
 
 .forMy-footer {
 	background-color: #0a1d37;
@@ -197,4 +248,11 @@ body {
 
 #langLogo .devCon {
 	width: 60px;
+
 }
+
+#langLogo {
+	background-color: #ffbd9b;
+	padding: 50px;
+}
+
